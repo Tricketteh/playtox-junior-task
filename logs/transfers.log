@@ -1,0 +1,42 @@
+2025-09-08 12:41:36.325 [main] INFO  com.tricketteh.Main - Initialized 4 accounts, each with 10000 money. Total=40000
+2025-09-08 12:41:37.397 [pool-2-thread-1] INFO  com.tricketteh.AccountService - TX#1: 4d5d9944-3512-4124-80e0-b7252d5d8aca -> 2b03bc0e-a765-4162-b428-0392b2d90faa : amount=758 | beforeFrom=10000 beforeTo=10000 afterFrom=9242 afterTo=10758
+2025-09-08 12:41:38.090 [pool-2-thread-3] INFO  com.tricketteh.AccountService - TX#2: 4d5d9944-3512-4124-80e0-b7252d5d8aca -> 2b03bc0e-a765-4162-b428-0392b2d90faa : amount=6796 | beforeFrom=9242 beforeTo=10758 afterFrom=2446 afterTo=17554
+2025-09-08 12:41:38.302 [pool-2-thread-2] INFO  com.tricketteh.AccountService - TX#3: f4fe927b-69b1-4391-bd43-d5ba4b8cfcb4 -> 4d5d9944-3512-4124-80e0-b7252d5d8aca : amount=6065 | beforeFrom=10000 beforeTo=2446 afterFrom=3935 afterTo=8511
+2025-09-08 12:41:38.724 [pool-2-thread-1] INFO  com.tricketteh.AccountService - TX#4: f4fe927b-69b1-4391-bd43-d5ba4b8cfcb4 -> 4d5d9944-3512-4124-80e0-b7252d5d8aca : amount=1692 | beforeFrom=3935 beforeTo=8511 afterFrom=2243 afterTo=10203
+2025-09-08 12:41:39.203 [pool-2-thread-3] INFO  com.tricketteh.AccountService - TX#5: 3a7a0269-df80-4547-b567-9b0fb8536106 -> f4fe927b-69b1-4391-bd43-d5ba4b8cfcb4 : amount=5928 | beforeFrom=10000 beforeTo=2243 afterFrom=4072 afterTo=8171
+2025-09-08 12:41:39.393 [pool-2-thread-2] INFO  com.tricketteh.AccountService - TX#6: 4d5d9944-3512-4124-80e0-b7252d5d8aca -> 2b03bc0e-a765-4162-b428-0392b2d90faa : amount=9433 | beforeFrom=10203 beforeTo=17554 afterFrom=770 afterTo=26987
+2025-09-08 12:41:40.299 [pool-2-thread-1] INFO  com.tricketteh.AccountService - TX#7: 2b03bc0e-a765-4162-b428-0392b2d90faa -> 3a7a0269-df80-4547-b567-9b0fb8536106 : amount=3123 | beforeFrom=26987 beforeTo=4072 afterFrom=23864 afterTo=7195
+2025-09-08 12:41:40.922 [pool-2-thread-2] INFO  com.tricketteh.AccountService - TX#8: 2b03bc0e-a765-4162-b428-0392b2d90faa -> f4fe927b-69b1-4391-bd43-d5ba4b8cfcb4 : amount=5682 | beforeFrom=23864 beforeTo=8171 afterFrom=18182 afterTo=13853
+2025-09-08 12:41:41.034 [pool-2-thread-3] INFO  com.tricketteh.AccountService - TX#9: 2b03bc0e-a765-4162-b428-0392b2d90faa -> f4fe927b-69b1-4391-bd43-d5ba4b8cfcb4 : amount=8190 | beforeFrom=18182 beforeTo=13853 afterFrom=9992 afterTo=22043
+2025-09-08 12:41:42.095 [pool-2-thread-1] INFO  com.tricketteh.AccountService - TX#10: 4d5d9944-3512-4124-80e0-b7252d5d8aca -> 3a7a0269-df80-4547-b567-9b0fb8536106 : amount=189 | beforeFrom=770 beforeTo=7195 afterFrom=581 afterTo=7384
+2025-09-08 12:41:42.386 [pool-2-thread-3] INFO  com.tricketteh.AccountService - TX#11: 3a7a0269-df80-4547-b567-9b0fb8536106 -> f4fe927b-69b1-4391-bd43-d5ba4b8cfcb4 : amount=1158 | beforeFrom=7384 beforeTo=22043 afterFrom=6226 afterTo=23201
+2025-09-08 12:41:42.775 [pool-2-thread-2] INFO  com.tricketteh.AccountService - TX#12: 3a7a0269-df80-4547-b567-9b0fb8536106 -> 4d5d9944-3512-4124-80e0-b7252d5d8aca : amount=483 | beforeFrom=6226 beforeTo=581 afterFrom=5743 afterTo=1064
+2025-09-08 12:41:43.635 [pool-2-thread-1] INFO  com.tricketteh.AccountService - TX#13: f4fe927b-69b1-4391-bd43-d5ba4b8cfcb4 -> 2b03bc0e-a765-4162-b428-0392b2d90faa : amount=529 | beforeFrom=23201 beforeTo=9992 afterFrom=22672 afterTo=10521
+2025-09-08 12:41:43.734 [pool-2-thread-3] INFO  com.tricketteh.AccountService - TX#14: 2b03bc0e-a765-4162-b428-0392b2d90faa -> 4d5d9944-3512-4124-80e0-b7252d5d8aca : amount=5388 | beforeFrom=10521 beforeTo=1064 afterFrom=5133 afterTo=6452
+2025-09-08 12:41:44.095 [pool-2-thread-2] INFO  com.tricketteh.AccountService - TX#15: 2b03bc0e-a765-4162-b428-0392b2d90faa -> 4d5d9944-3512-4124-80e0-b7252d5d8aca : amount=4000 | beforeFrom=5133 beforeTo=6452 afterFrom=1133 afterTo=10452
+2025-09-08 12:41:45.481 [pool-2-thread-1] INFO  com.tricketteh.AccountService - TX#16: 3a7a0269-df80-4547-b567-9b0fb8536106 -> 4d5d9944-3512-4124-80e0-b7252d5d8aca : amount=4184 | beforeFrom=5743 beforeTo=10452 afterFrom=1559 afterTo=14636
+2025-09-08 12:41:45.568 [pool-2-thread-3] INFO  com.tricketteh.AccountService - TX#17: 3a7a0269-df80-4547-b567-9b0fb8536106 -> 2b03bc0e-a765-4162-b428-0392b2d90faa : amount=1388 | beforeFrom=1559 beforeTo=1133 afterFrom=171 afterTo=2521
+2025-09-08 12:41:45.923 [pool-2-thread-2] INFO  com.tricketteh.AccountService - TX#18: 3a7a0269-df80-4547-b567-9b0fb8536106 -> 2b03bc0e-a765-4162-b428-0392b2d90faa : amount=52 | beforeFrom=171 beforeTo=2521 afterFrom=119 afterTo=2573
+2025-09-08 12:41:46.575 [pool-2-thread-1] INFO  com.tricketteh.AccountService - TX#19: f4fe927b-69b1-4391-bd43-d5ba4b8cfcb4 -> 3a7a0269-df80-4547-b567-9b0fb8536106 : amount=21116 | beforeFrom=22672 beforeTo=119 afterFrom=1556 afterTo=21235
+2025-09-08 12:41:46.817 [pool-2-thread-3] INFO  com.tricketteh.AccountService - TX#20: 2b03bc0e-a765-4162-b428-0392b2d90faa -> 3a7a0269-df80-4547-b567-9b0fb8536106 : amount=2572 | beforeFrom=2573 beforeTo=21235 afterFrom=1 afterTo=23807
+2025-09-08 12:41:47.477 [pool-2-thread-2] INFO  com.tricketteh.AccountService - TX#21: 2b03bc0e-a765-4162-b428-0392b2d90faa -> 3a7a0269-df80-4547-b567-9b0fb8536106 : amount=1 | beforeFrom=1 beforeTo=23807 afterFrom=0 afterTo=23808
+2025-09-08 12:41:47.897 [pool-2-thread-3] INFO  com.tricketteh.AccountService - TX#22: 4d5d9944-3512-4124-80e0-b7252d5d8aca -> 2b03bc0e-a765-4162-b428-0392b2d90faa : amount=6358 | beforeFrom=14636 beforeTo=0 afterFrom=8278 afterTo=6358
+2025-09-08 12:41:47.953 [pool-2-thread-1] INFO  com.tricketteh.AccountService - TX#23: f4fe927b-69b1-4391-bd43-d5ba4b8cfcb4 -> 3a7a0269-df80-4547-b567-9b0fb8536106 : amount=717 | beforeFrom=1556 beforeTo=23808 afterFrom=839 afterTo=24525
+2025-09-08 12:41:49.081 [pool-2-thread-2] INFO  com.tricketteh.AccountService - TX#24: 2b03bc0e-a765-4162-b428-0392b2d90faa -> 4d5d9944-3512-4124-80e0-b7252d5d8aca : amount=4045 | beforeFrom=6358 beforeTo=8278 afterFrom=2313 afterTo=12323
+2025-09-08 12:41:49.547 [pool-2-thread-1] INFO  com.tricketteh.AccountService - TX#25: f4fe927b-69b1-4391-bd43-d5ba4b8cfcb4 -> 3a7a0269-df80-4547-b567-9b0fb8536106 : amount=226 | beforeFrom=839 beforeTo=24525 afterFrom=613 afterTo=24751
+2025-09-08 12:41:49.773 [pool-2-thread-3] INFO  com.tricketteh.AccountService - TX#26: f4fe927b-69b1-4391-bd43-d5ba4b8cfcb4 -> 2b03bc0e-a765-4162-b428-0392b2d90faa : amount=322 | beforeFrom=613 beforeTo=2313 afterFrom=291 afterTo=2635
+2025-09-08 12:41:50.712 [pool-2-thread-1] INFO  com.tricketteh.AccountService - TX#27: 3a7a0269-df80-4547-b567-9b0fb8536106 -> 4d5d9944-3512-4124-80e0-b7252d5d8aca : amount=4856 | beforeFrom=24751 beforeTo=12323 afterFrom=19895 afterTo=17179
+2025-09-08 12:41:50.811 [pool-2-thread-2] INFO  com.tricketteh.AccountService - TX#28: 2b03bc0e-a765-4162-b428-0392b2d90faa -> 4d5d9944-3512-4124-80e0-b7252d5d8aca : amount=2546 | beforeFrom=2635 beforeTo=17179 afterFrom=89 afterTo=19725
+2025-09-08 12:41:51.738 [pool-2-thread-3] INFO  com.tricketteh.AccountService - TX#29: 4d5d9944-3512-4124-80e0-b7252d5d8aca -> 3a7a0269-df80-4547-b567-9b0fb8536106 : amount=8876 | beforeFrom=19725 beforeTo=19895 afterFrom=10849 afterTo=28771
+2025-09-08 12:41:52.181 [pool-2-thread-2] INFO  com.tricketteh.AccountService - TX#30: 4d5d9944-3512-4124-80e0-b7252d5d8aca -> 2b03bc0e-a765-4162-b428-0392b2d90faa : amount=5083 | beforeFrom=10849 beforeTo=89 afterFrom=5766 afterTo=5172
+2025-09-08 12:41:52.181 [pool-2-thread-2] INFO  com.tricketteh.AccountService - Reached max transactions (30).
+2025-09-08 12:41:52.371 [pool-2-thread-3] WARN  com.tricketteh.Main - Worker interrupted
+2025-09-08 12:41:52.371 [pool-2-thread-1] WARN  com.tricketteh.Main - Worker interrupted
+2025-09-08 12:41:52.372 [main] INFO  com.tricketteh.Main - Final transaction count: 30
+2025-09-08 12:41:52.373 [main] INFO  com.tricketteh.Main - Final balance: Account{id='2b03bc0e-a765-4162-b428-0392b2d90faa', money=5172}
+2025-09-08 12:41:52.373 [main] INFO  com.tricketteh.Main - Final balance: Account{id='3a7a0269-df80-4547-b567-9b0fb8536106', money=28771}
+2025-09-08 12:41:52.374 [main] INFO  com.tricketteh.Main - Final balance: Account{id='4d5d9944-3512-4124-80e0-b7252d5d8aca', money=5766}
+2025-09-08 12:41:52.374 [main] INFO  com.tricketteh.Main - Final balance: Account{id='f4fe927b-69b1-4391-bd43-d5ba4b8cfcb4', money=291}
+2025-09-08 12:41:52.374 [main] INFO  com.tricketteh.Main - Initial total = 40000, Final total = 40000
+2025-09-08 12:41:52.374 [main] INFO  com.tricketteh.Main - Total money preserved.
+2025-09-08 12:41:52.374 [main] INFO  com.tricketteh.Main - Application finished.
